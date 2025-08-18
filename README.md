@@ -29,7 +29,7 @@ It showcases my **skills, services, projects, and contact information** in a mod
 
 ## 📂 Project Structure  
 
-src/
+src/ <br>
 ├── assets/ # Images, logo, CV, etc. <br>
 ├── components/ # Reusable components (Navbar, Hero, About, Services, etc.)<br>
 ├── App.js # Main app component<br>
