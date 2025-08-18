@@ -30,10 +30,10 @@ It showcases my **skills, services, projects, and contact information** in a mod
 ## 📂 Project Structure  
 
 src/
-├── assets/ # Images, logo, CV, etc.
-├── components/ # Reusable components (Navbar, Hero, About, Services, etc.)
-├── App.js # Main app component
-└── index.js # React entry point
+├── assets/ # Images, logo, CV, etc. <br>
+├── components/ # Reusable components (Navbar, Hero, About, Services, etc.)<br>
+├── App.js # Main app component<br>
+└── index.js # React entry point<br>
 
 
 ---
@@ -44,9 +44,9 @@ src/
    ```bash
    git clone https://github.com/your-username/hamzuu-portfolio.git
    cd hamzuu-portfolio
-2. Install dependencies
+2. Install dependencies <br>
    npm install
-3. Run the development server
+3. Run the development server <br>
    npm run dev
 
    
