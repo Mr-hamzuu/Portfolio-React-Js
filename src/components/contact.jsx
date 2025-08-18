@@ -1,4 +1,4 @@
-// src/components/Contact.jsx
+
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
@@ -19,7 +19,7 @@ export default function Contact() {
 
         {/* Contact Form */}
         <form
-          action="https://formspree.io/f/xeozwvbe" // Replace with your Formspree ID
+          action="https://formspree.io/f/xeozwvbe" 
           method="POST"
           className="max-w-2xl mx-auto bg-[#243b47] rounded-lg shadow-lg p-8 flex flex-col gap-6"
         >

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import Hamburger from "hamburger-react"; // Use default import
+import Hamburger from "hamburger-react"; 
 import { Link } from "react-router-dom";
-import "@fontsource/stardos-stencil"; // Logo font
 import logo from "../assets/logo.png";
 
 const Navbar = () => {

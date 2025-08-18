@@ -1,7 +1,6 @@
-// src/components/SkillCards.tsx
-import { motion } from "framer-motion"
 
-// src/components/SkillCard.jsx
+
+
 import React from "react";
 
 const SkillCard = ({ icon, skill, level }) => {

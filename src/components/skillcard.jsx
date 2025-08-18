@@ -1,4 +1,4 @@
-// src/components/SkillsSection.jsx
+
 import React from "react";
 import SkillCard from "./card";
 import { motion } from "framer-motion";
