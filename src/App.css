@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+#root{
+  margin: 0 !important;
+  padding: 0% !important;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+nav{
+  width: 90%;
+
+}
+.hire:hover ,.resume:hover{
+  box-shadow: inset 0px 0px 14px 20px cyan;
+  color: rgb(11, 33, 146);
+}
+.background{
+  background: url(assets/background3.jpg);
+  background-position:bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

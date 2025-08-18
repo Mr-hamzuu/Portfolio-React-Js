@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+#root{
+  margin: 0 !important;
+  padding: 0% !important;
+}
+nav{
+  width: 90%;
+border: none;
+box-shadow: 0px 0px 20px -2px #1E2A44;
+}
+
+.hire:hover{
+  box-shadow: inset 0px 0px 14px 20px cyan !important;
+  color: rgb(11, 33, 146) !important;
+}
+.sidebar a:hover ,nav li a:hover{
+color: cyan;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+.background{
+  background-position:top;
+}
