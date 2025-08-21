@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className={`py-16 w-full mx-auto  bg-neutral-900 text-white`}
+      className={`py-16 w-full mx-auto mt-19  sm:mt-0 bg-neutral-900 text-white`}
     >
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}

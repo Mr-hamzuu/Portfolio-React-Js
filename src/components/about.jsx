@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-16 w-[92%] mx-auto bg-[#1b2a2f] text-white"
+      className="py-16 w-[92%] mx-auto mt-16  sm:mt-0 bg-[#1b2a2f] text-white"
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         

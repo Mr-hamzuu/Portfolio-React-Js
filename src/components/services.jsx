@@ -68,7 +68,7 @@ export default function Services() {
   return (
     <section
       id="service"
-      className="py-16 bg-[#1b2a2f] w-[92%] mx-auto text-white"
+      className="py-16 mt-19  sm:mt-0 bg-[#1b2a2f] w-[92%] mx-auto text-white"
     >
       <div className="container mx-auto px-6">
         {/* Animated Heading */}

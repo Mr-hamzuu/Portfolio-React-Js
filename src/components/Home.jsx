@@ -8,7 +8,7 @@ import ScrollToTop from "./scrollbar";
 const Home = () => {
   return (
     <div>
-      <div className="background ">
+      <div className="background mt-19  sm:mt-0">
         <div className="backdrop-blur-xl">
           <Hero />
         </div>

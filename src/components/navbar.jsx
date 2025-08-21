@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import Hamburger from "hamburger-react"; 
+import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -11,31 +11,31 @@ const Navbar = () => {
     <div className="container mx-auto sm:place-items-center">
       {/* Desktop Navbar */}
       <nav
-        className={`sm:flex shadow-[#1E2A44] justify-between  items-center px-12 rounded-2xl transition-all duration-700  opacity-100 translate-y-0 hidden m-auto`}
+        className={`sm:flex shadow-[#1E2A44]  justify-between  items-center px-12 rounded-2xl transition-all duration-700  opacity-100 translate-y-0 hidden m-auto`}
       >
         <ul className="flex sm:w-10/12 gap-6 p-7 text-xl">
           <li>
-          <Link to='/' className="transition duration-300 " >
+            <Link to="/" className="transition duration-300 ">
               Home
             </Link>
           </li>
           <li>
-           <Link to='/about'  className="transition duration-300 ">
+            <Link to="/about" className="transition duration-300 ">
               About
             </Link>
           </li>
           <li>
-           <Link to='/services'  className="transition duration-300 ">
+            <Link to="/services" className="transition duration-300 ">
               Services
             </Link>
           </li>
           <li>
-            <Link to='/contact'  className="transition duration-300 ">
-              Contact 
+            <Link to="/contact" className="transition duration-300 ">
+              Contact
             </Link>
           </li>
         </ul>
-        <div >
+        <div>
           <a
             href="https://wa.me/923195260580/?text=urlencodedtext"
             className="px-6 py-2 text-xl text-shadow-none duration-600 whitespace-nowrap hire border rounded-full hover:shadow-inner transition"
@@ -46,10 +46,10 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Navbar */}
-      <div className="sm:hidden flex backdrop-blur-2xl justify-between items-center pt-2 px-6">
-       <div>
-        <img src={`${logo}`} width={80} alt="" />
-       </div>
+      <div className="sm:hidden w-full fixed top-0 z-50  bg-[#1b2a2f]  flex  justify-between items-center pt-2 px-6">
+        <div>
+          <img src={`${logo}`} width={80} alt="" />
+        </div>
 
         <Hamburger
           toggled={isOpen}
@@ -59,29 +59,29 @@ const Navbar = () => {
       </div>
 
       <ul
-        className={`fixed top-0 right-0 h-screen w-1/2 bg-transparent backdrop-blur-md shadow-lg p-9 flex flex-col gap-7 z-50 transform transition-transform duration-500 ${
+        className={`fixed top-60px right-0 h-screen w-1/2 bg-transparent backdrop-blur-md shadow-lg p-9 flex flex-col gap-7 z-50 transform transition-transform duration-500 ${
           isOpen ? "translate-x-0 shadow-cyan-400 " : "translate-x-full"
         }`}
       >
         <li>
-          <Link to='/' onClick={() => setOpen(false)}>
-              Home
-            </Link>
+          <Link to="/" onClick={() => setOpen(false)}>
+            Home
+          </Link>
         </li>
         <li>
-         <Link to='/about' onClick={() => setOpen(false)}>
-              About
-            </Link>
+          <Link to="/about" onClick={() => setOpen(false)}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to='/services' onClick={() => setOpen(false)}>
-              Services
-            </Link>
+          <Link to="/services" onClick={() => setOpen(false)}>
+            Services
+          </Link>
         </li>
         <li>
-          <Link to='/contact' onClick={() => setOpen(false)}>
-              Contact
-            </Link>
+          <Link to="/contact" onClick={() => setOpen(false)}>
+            Contact
+          </Link>
         </li>
         <li>
           <button
