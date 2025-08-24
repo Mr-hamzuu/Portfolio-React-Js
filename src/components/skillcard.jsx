@@ -27,7 +27,7 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section className="container mx-auto px-6 bg-[#1E2A44] py-16">
+    <section className=" mx-auto px-6 md:w-full bg-[#1E2A44] py-16">
       <motion.h1
         className="text-4xl font-bold text-white mb-8 text-center"
         initial={{ opacity: 0, y: -30 }}
@@ -38,7 +38,7 @@ const SkillsSection = () => {
         My Skills
       </motion.h1>
 
-      <div className="grid grid-cols-1 w-[92%] mx-auto sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 w-[92%] mx-auto  sm:grid-cols-2 md:grid-cols-4 gap-8">
         {skills.map((s, idx) => (
           <motion.div
             key={idx}
