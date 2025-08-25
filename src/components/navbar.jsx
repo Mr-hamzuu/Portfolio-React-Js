@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Hamburger from "hamburger-react";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -15,24 +15,33 @@ const Navbar = () => {
       >
         <ul className="flex sm:w-10/12 gap-6 p-7 text-xl">
           <li>
-            <Link to="/" className="transition duration-300 ">
+            <NavLink to="/" className={({isActive})=>
+            `transition duration-300 
+            ${isActive ? "text-[#00ffff]":"text-white"}`}>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/about" className="transition duration-300 ">
+            
+          <NavLink to="/about" className={({isActive})=>
+            `transition duration-300 
+            ${isActive ? "text-[#00ffff]":"text-white"}`}>
               About
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/services" className="transition duration-300 ">
+           <NavLink to="/services" className={({isActive})=>
+            `transition duration-300 
+            ${isActive ? "text-[#00ffff]":"text-white"}`}>
               Services
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" className="transition duration-300 ">
+           <NavLink to="/contact" className={({isActive})=>
+            `transition duration-300 
+            ${isActive ? "text-[#00ffff]":"text-white"}`}>
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div>

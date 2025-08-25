@@ -1,7 +1,6 @@
-
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from "react-icons/fa";
-
+import { motion } from "motion/react";
 export default function Contact() {
   return (
     <section
@@ -10,18 +9,37 @@ export default function Contact() {
     >
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl font-bold mb-6">📩 Contact Me</h2>
-        <p className="text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
+        <motion.h2
+          className="text-4xl font-bold mb-6"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          📩 Contact Me
+        </motion.h2>
+        <motion.p
+          className="text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed"
+          lassName="text-4xl font-bold mb-6"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           Let’s connect! Whether you have a question, a project idea, or just
           want to say hi, my inbox is always open. I’ll do my best to get back
           to you quickly.
-        </p>
+        </motion.p>
 
         {/* Contact Form */}
-        <form
-          action="https://formspree.io/f/xeozwvbe" 
+        <motion.form
+          action="https://formspree.io/f/xeozwvbe"
           method="POST"
           className="max-w-2xl mx-auto bg-[#243b47] rounded-lg shadow-lg p-8 flex flex-col gap-6"
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
         >
           <input
             type="text"
@@ -50,7 +68,7 @@ export default function Contact() {
           >
             Send Message 🚀
           </button>
-        </form>
+        </motion.form>
 
         {/* Social Links */}
         <div className="sm:flex flex flex-wrap justify-center gap-8 mt-10">
