@@ -70,8 +70,8 @@ const Contact = () => {
         {
             icon: FaEnvelope,
             title: 'Email',
-            value: 'hamzuu6971@gmail.com',
-            link: 'mailto:hamzuu6971@gmail.com',
+            value: 'engr.hamza.khan.dev@gmail.com',
+            link: 'mailto:engr.hamza.khan.dev@gmail.com',
         },
         {
             icon: FaMapMarkerAlt,
