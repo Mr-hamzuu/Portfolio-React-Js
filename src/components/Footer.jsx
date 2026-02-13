@@ -8,7 +8,7 @@ const Footer = () => {
         { icon: FaGithub, href: 'https://github.com/Mr-hamzuu', label: 'GitHub' },
         { icon: FaLinkedin, href: 'https://www.linkedin.com/in/hamzuu6971/', label: 'LinkedIn' },
         { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
-        { icon: FaEnvelope, href: 'mailto:hamzuu6971@gmail.com', label: 'Email' },
+        { icon: FaEnvelope, href: 'mailto:engr.hamza.khan.dev@gmail.com', label: 'Email' },
     ];
 
     const quickLinks = [
