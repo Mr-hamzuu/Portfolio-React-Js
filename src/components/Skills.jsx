@@ -41,7 +41,7 @@ const Skills = () => {
             title: 'Backend',
             skills: [
                 { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-                { name: 'Express', icon: SiExpress, color: '#000000' },
+                // { name: 'Express', icon: SiExpress, color: '#000000' },
                 { name: 'Python', icon: FaPython, color: '#3776AB' },
                 { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
                 { name: 'SQL', icon: FaDatabase, color: '#4479A1' },
