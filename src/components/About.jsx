@@ -33,6 +33,7 @@ const About = () => {
                     variants={containerVariants}
                     initial="hidden"
                     animate={isInView ? 'visible' : 'hidden'}
+                    className="pl-8 md:pl-16 lg:pl-0"
                 >
                     <motion.div variants={itemVariants} className="text-center mb-16">
                         <h2 className="text-4xl sm:text-5xl font-bold mb-4 gradient-text font-display">
